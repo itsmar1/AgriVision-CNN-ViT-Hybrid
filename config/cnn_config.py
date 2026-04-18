@@ -1,4 +1,4 @@
-CONFIG = {
+CNN_CONFIG = {
     "model": "cnn",
     "framework": "pytorch",       # "pytorch" or "keras"
 

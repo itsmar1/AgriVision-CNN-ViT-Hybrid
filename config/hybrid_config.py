@@ -1,4 +1,4 @@
-CONFIG = {
+HYBRID_CONFIG = {
     "model": "hybrid_cnn_vit",
     "framework": "pytorch",
 

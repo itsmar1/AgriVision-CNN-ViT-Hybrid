@@ -1,4 +1,4 @@
-CONFIG = {
+VIT_CONFIG = {
     "model": "vit",
     "framework": "pytorch",
 
