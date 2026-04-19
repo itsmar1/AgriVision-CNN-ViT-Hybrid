@@ -1,5 +1,5 @@
 """
-train.py — CLI entry point for training any model in the geo_classify pipeline.
+train.py — CLI entry point for training any model in the AgriVision pipeline.
 
 Usage:
     python train.py --model cnn_torch
@@ -110,7 +110,7 @@ def run_keras(cfg):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Train geo_classify models")
+    parser = argparse.ArgumentParser(description="Train AgriVision models")
     parser.add_argument(
         "--model",
         choices=["cnn_torch", "cnn_keras", "vit", "hybrid"],

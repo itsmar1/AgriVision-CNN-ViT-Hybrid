@@ -94,7 +94,7 @@ def evaluate_model(model_name, cfg, device):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Evaluate geo_classify models")
+    parser = argparse.ArgumentParser(description="Evaluate AgriVision models")
     parser.add_argument(
         "--model",
         choices=["cnn_torch", "vit", "hybrid", "all"],

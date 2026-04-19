@@ -103,7 +103,7 @@ def save_comparison_table(df, figures_dir):
         for j in range(-1, len(df.columns)):
             tbl[i, j].set_facecolor(color)
 
-    plt.title("Model Comparison — Geo Classify", fontsize=13,
+    plt.title("Model Comparison — AgriVision", fontsize=13,
               fontweight="bold", pad=10)
     plt.tight_layout()
     out = os.path.join(figures_dir, "model_comparison.png")
