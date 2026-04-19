@@ -16,6 +16,7 @@ VIT_CONFIG = {
     # training
     "epochs": 20,
     "batch_size": 16,                         # smaller — ViT is memory hungry
+    "learning_rate": 1e-3,
     "learning_rate_head": 1e-3,               # LR for classifier head
     "learning_rate_backbone": 1e-5,           # LR for backbone after unfreeze
     "weight_decay": 1e-4,
