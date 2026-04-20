@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1 Score,ROC-AUC,Params (M),Inference (ms)
+CNN PyTorch,0.9618,0.9635,0.9600,0.9617,0.9947,1.6,0.7
+CNN Keras,0.9651,0.9711,0.9587,0.9649,0.9950,1.6,0.0
+ViT Fine-Tuned,0.9921,0.9880,0.9964,0.9922,0.9998,85.8,14.0
+Hybrid CNN-ViT,0.9855,0.9808,0.9903,0.9855,0.9992,27.4,3.4
