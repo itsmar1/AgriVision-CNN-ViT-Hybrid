@@ -50,6 +50,6 @@ def build_cnn_keras(cfg):
 
 
 if __name__ == "__main__":
-    from config.cnn_config import CONFIG
-    model = build_cnn_keras(CONFIG)
+    from config.cnn_config import CNN_CONFIG
+    model = build_cnn_keras(CNN_CONFIG)
     model.summary()
