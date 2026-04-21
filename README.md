@@ -3,6 +3,8 @@
 Binary classification of satellite imagery using CNNs, Vision Transformers,
 and a hybrid CNN-ViT architecture. Built on EuroSAT (Sentinel-2) imagery.
 
+https://github.com/user-attachments/assets/663a0b85-7a91-45fe-a78b-b8fc8a49cad6
+
 ---
 
 ## Results
@@ -20,7 +22,7 @@ and a hybrid CNN-ViT architecture. Built on EuroSAT (Sentinel-2) imagery.
 ## Project Structure
 
 ```
-geo_classify/
+AgriVision/
 ├── data/               # loaders, augmentation, splits, raw images
 ├── src/
 │   ├── models/         # CNN (PyTorch + Keras), ViT, Hybrid
